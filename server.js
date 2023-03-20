@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 5005
 const connectdb = require('./config/connectdb')
-
+const ContactRouter = require('./routes/contact')
 
 connectdb()
 app.use(express.json())

@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connectdb=async()=>{
 try{
-    await  mongoose.connect('mongodb+srv://Hammami-soumaya:tI73evmRpX4oX5xg@cluster0.supdgew.mongodb.net/?retryWrites=true&w=majority')
+    await  mongoose.connect('mongodb+srv://Hammami-soumaya:znSqaCM6GI4KhWZo@cluster0.supdgew.mongodb.net/?retryWrites=true&w=majority')
     console.log("you are connected to database")
 }
 catch(err){
